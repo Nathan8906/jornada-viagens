@@ -17,12 +17,16 @@
     </a>
     <div class="navigation-menu">
       <label for="menu">
+        <!--A tag <label> é usada em formulários HTML para rotular (dar nome/descrição) a um campo de entrada, como <input>, <textarea> ou <select>.-->
         <img src="img/menu.png" alt="menu" />
       </label>
       <input type="checkbox" id="menu" hidden />
       <nav>
+        <!--A tag <nav> é usada em HTML para representar uma área de navegação, ou seja, uma seção da página que contém links importantes para outras partes do site ou para páginas externas.-->
         <ul class="list-links">
+          <!--A tag <ul> é usada em HTML para criar uma lista não ordenada, ou seja, uma lista de itens sem numeração, normalmente marcada com bolinhas (bullets).-->
           <li>
+            <!--A tag <li> é usada para representar cada item dentro de uma lista em HTML. Ela sempre deve estar dentro de uma tag de lista, como:-->
             <a href="blog.html" target="_blank" title="Acessar Blog">Blog</a>
           </li>
           <li>
@@ -35,8 +39,11 @@
       </nav>
     </div>
   </header>
-  <section class="hero">
+  <section class="hero"><!-- tag section serve:Organizar o conteúdo em blocos significativos. -->
+    <!--Onde usar?  Quando outro elemento semântico faz mais sentido, como <article>, <nav>, <aside> ou <div> (quando não há função semântica).-->
+
     <div class="hero-img"></div>
+    <!-- tag div: Agrupar elementos para aplicar CSS.Criar layouts (com CSS Grid, Flexbox etc.). -->
     <h2>
       Somos uma agência apaixonada por criar viagens inesquecíveis. Do destino
       à seleção das atividades, cuidamos de todos os detalhes para que você
@@ -46,7 +53,12 @@
   <section class="offers">
     <div class="section-title">
       <h2>Ofertas da Semana</h2>
-      <hr>
+      <hr />
+    </div>
+    <div class="offers-cards">
+      <article class="card">
+        <header></header>
+      </article>
     </div>
   </section>
   <section class="categorias">
@@ -56,12 +68,15 @@
     </div>
     <div class="offers-cards">
       <article class="card">
+        <!--A tag <article> define um conteúdo independente e autocontido dentro de uma página.-->
         <header>
           <p>HOTEL+AÉREO</p>
-          <H3>Japão <br> 
-            <span>R$ 4000</span></H3>
+          <H3>Japão <br>
+            <span>R$ 4000</span>
+          </H3>
         </header>
         <footer>
+          <!--O <footer> é usado para colocar informações finais, normalmente relacionadas ao conteúdo anterior, como:-->
           <a href="#" class="button">Ver detalhes</a>
         </footer>
       </article>
