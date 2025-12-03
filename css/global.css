@@ -47,9 +47,8 @@ body {
   color: var(--text-primary-color);
 }
 
-
-
 .section-title h2 {
+  padding-top: 50px;
   font-size: 28px;
   font-weight: var(--titles-weight);
   margin: 0;
@@ -58,13 +57,13 @@ body {
 
 .section-title hr {
   width: 180px;
-  height: 4px;
+  height: 8px;
   background-color: var(--secondary-color);
   border: none;
   margin: 16px auto 32px;
 }
 
-.button{
+.button {
   width: 280px;
   height: 64px;
   color: var(--text-secondary-color);
@@ -84,7 +83,7 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
-  .button:hover{
+  .button:hover {
     background-color: var(--primary-color);
   }
 }
